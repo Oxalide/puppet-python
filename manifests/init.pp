@@ -77,6 +77,7 @@ class python (
   $gunicorn_package_name     = $python::params::gunicorn_package_name,
   $provider                  = $python::params::provider,
   $valid_versions            = $python::params::valid_versions,
+  $pypa                      = $python::params::pypa,
   $python_pips               = { },
   $python_virtualenvs        = { },
   $python_pyvenvs            = { },
