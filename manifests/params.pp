@@ -17,7 +17,6 @@ class python::params {
     'Suse'   => [],
     'Gentoo' => ['2.7', '3.3', '3.4', '3.5']
   }
-  $pypa                   = '2.6'
 
   if $::osfamily == 'RedHat' {
     if $::operatingsystem != 'Fedora' {
